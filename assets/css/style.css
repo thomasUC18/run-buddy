@@ -74,7 +74,7 @@ section {
 /* Hero Style Start */
 /* Come back to this section the image doesn't work */
 .hero {
-    background-image: url('../images/hero-bg.jpg');
+    background-image: url("../images/hero-bg.jpg");
     height: 600px;
     background-size: cover;
     background-position: center; 
