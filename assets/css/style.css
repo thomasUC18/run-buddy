@@ -128,18 +128,6 @@ section {
     text-align: center;
 }
 
-/* remove this entire CSS rule */
-
-.intro h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
-    display: inline-block;
-}
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -153,13 +141,20 @@ section {
     background: #fce138
 }
 
-/* remoe this entire CSS rule */
-.steps h2 {
+.section-title {
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
+    display: inline-block;
     border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
     border-color: #39a6b2;
 }
 
@@ -178,7 +173,7 @@ section {
     margin-top: 10px;
 }
 
-.step p {
+.steps p {
     color: #39a6b2;
     font-size: 23px;
 }
